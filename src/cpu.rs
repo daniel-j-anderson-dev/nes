@@ -6,6 +6,8 @@ pub struct Cpu {
     stack_pointer: u8,
     status_register: u8,
 }
+// Instructions.
+// See: https://www.nesdev.org/wiki/Instruction_reference
 impl Cpu {
     /// ADC - Add with Carry
     ///
